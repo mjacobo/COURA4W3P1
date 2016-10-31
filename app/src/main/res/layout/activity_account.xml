@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mj.courseraprw3.pojo.contact"
+    android:weightSum="20"
+    >
+
+    <include android:id="@+id/myActionBarAccount" layout="@layout/action_bar_account"></include>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="150dp"
+        android:layout_height="@dimen/image_layout_heigth"
+        android:layout_gravity="center"
+        android:paddingBottom="@dimen/bottom_padding"
+        android:src="@mipmap/ic_petagram"
+        android:layout_weight="7"
+        />
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/myUserAccount"
+        android:layout_marginTop="@dimen/label_padding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_layout_heigth"
+        android:hint="@string/account_hint"
+        android:inputType="textEmailAddress"
+        android:layout_weight="2"
+        />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/acbSendAccount"
+        android:layout_marginBottom="@dimen/bottom_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/account_button"
+        android:elevation="@dimen/button_elevation"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

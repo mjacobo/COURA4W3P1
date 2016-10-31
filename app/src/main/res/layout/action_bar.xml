@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minHeight="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/accbar_elevation"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:layout_scrollFlags="scroll|enterAlways"
+>
+
+ <LinearLayout
+     android:id="@+id/ll1"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@color/colorPrimary"
+     android:orientation="horizontal"
+     android:weightSum="20"
+     >
+
+  <android.support.v7.widget.AppCompatImageView
+      android:id="@+id/acivCatFootprint"
+      android:layout_width="@dimen/image_layout_width"
+      android:layout_height="wrap_content"
+      android:cropToPadding="true"
+      android:src="@mipmap/ic_cat_footprint"
+      android:background="@color/colorPrimary"
+      android:adjustViewBounds="true"
+      android:layout_gravity="center"
+      android:layout_weight="4"
+      />
+
+  <android.support.v7.widget.AppCompatImageView
+      android:layout_width="@dimen/image_layout_width"
+      android:layout_height="wrap_content"
+      android:cropToPadding="true"
+      android:src="@mipmap/ic_petagram"
+      android:background="@color/colorPrimary"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:layout_gravity="center"
+      android:layout_weight="11"
+      />
+
+  <android.support.v7.widget.AppCompatImageView
+      android:id="@+id/star"
+      android:layout_width="@dimen/image_layout_width"
+      android:layout_height="wrap_content"
+      android:cropToPadding="true"
+      android:src="@mipmap/star_5_hotel_48"
+      android:background="@color/colorPrimary"
+      android:adjustViewBounds="true"
+      android:layout_gravity="center"
+      android:layout_weight="4"
+      android:onClick="showTopFive"
+      />
+
+
+ </LinearLayout>
+
+
+
+
+
+
+</android.support.v7.widget.Toolbar>

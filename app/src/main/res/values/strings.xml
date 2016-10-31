@@ -1,0 +1,23 @@
+<resources>
+    <!-- Agregue por favor su correo y password para enviar mensajes. -->
+    <string name="email_account"></string>
+    <string name="email_psw"></string>
+    <!-- Fin de sección   -->
+    <string name="app_name">CourseraPRW3</string>
+    <string name="text_demo">Cuenta no proporcionada</string>
+    <string name="mi_Contacto">Contacto</string>
+    <string name="mi_AcercaDe">Acerca de</string>
+    <string name="contact_label">Contacto</string>
+    <string name="contact_name_label">Nombre: </string>
+    <string name="contact_email_lable">Correo electrónico: </string>
+    <string name="contact_message_label">Mensaje: </string>
+    <string name="button_label">Enviar Comentario</string>
+    <string name="Bio_label">Acerca del desarrollador.</string>
+    <string name="Bio_Desc"> Mauricio es un desarrollador con varios años de experiencia laboral. Programa en diversos lenguajes y está aprendiendo desarrollo de aplicaciones móviles.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account_hint">Escribe tu usuario</string>
+    <string name="account_button">Guardar cuenta</string>
+    <string name="mi_Cuenta">Configurar cuenta</string>
+    <string name="card_demo_text">0</string>
+    <string name="mi_RecibNotf">Recibir Notificaciones</string>
+</resources>

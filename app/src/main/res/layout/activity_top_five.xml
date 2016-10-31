@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mj.courseraprw3.top_five">
+
+    <include android:id="@+id/myActionBarTopFive" layout="@layout/action_bar_list"></include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcvMyCarrouselTopFive"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/myActionBarTopFive"
+        android:elevation="@dimen/cardElevationRes"
+        />
+
+</RelativeLayout>

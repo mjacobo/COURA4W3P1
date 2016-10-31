@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="accbar_elevation">4dp</dimen>
+    <dimen name="image_layout_width">0dp</dimen>
+    <dimen name="image_layout_heigth">0dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+    <dimen name="text_label_size">20sp</dimen>
+    <dimen name="border_line">1dip</dimen>
+    <dimen name="fabElevation">12dp</dimen>
+    <dimen name="cardElevationRes">2dp</dimen>
+    <dimen name="cardElevationPick">8dp</dimen>
+    <dimen name="label_padding">20dp</dimen>
+    <dimen name="contact_label_size">40sp</dimen>
+    <dimen name="button_elevation">8dp</dimen>
+    <dimen name="bottom_padding">10dp</dimen>
+    <dimen name="photo_size">100dp</dimen>
+    <dimen name="desc_label_size">20sp</dimen>
+    <dimen name="border_width">4dp</dimen>
+    <dimen name="line_height">2dp</dimen>
+    <dimen name="card_height">170dp</dimen>
+    <dimen name="card_radius">4dp</dimen>
+    <dimen name="picture_height">130dp</dimen>
+    <dimen name="bone_size">27dp</dimen>
+    <dimen name="card_profile_padding">6dp</dimen>
+    <dimen name="card_text_size">15sp</dimen>
+    <dimen name="profile_padding">40dp</dimen>
+    <dimen name="carrousel_card">20sp</dimen>
+</resources>

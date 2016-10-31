@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlMyLayout"
+    tools:context="com.mj.courseraprw3.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/ablMyAppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <include android:id="@+id/myToolBar" layout="@layout/action_bar"></include>
+        
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tlMyTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </android.support.design.widget.TabLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+         <android.support.v4.view.ViewPager
+             android:id="@+id/vpMyViewPager"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             app:layout_behavior="@string/appbar_scrolling_view_behavior"
+             />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="@dimen/card_padding"
+            android:clickable="true"
+            android:src="@drawable/camera_100"
+            android:cropToPadding="true"
+            android:elevation="@dimen/fabElevation" />
+
+</android.support.design.widget.CoordinatorLayout>

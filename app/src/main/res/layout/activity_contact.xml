@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mj.courseraprw3.pojo.contact"
+    >
+
+    <include android:id="@+id/myActionBarContact" layout="@layout/action_bar_list"></include>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id ="@+id/actvContact"
+        android:layout_marginTop="@dimen/label_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_label"
+        android:gravity="center"
+        android:textSize="@dimen/contact_label_size"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/acetName"
+        android:layout_marginTop="@dimen/label_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contact_name_label"
+        android:inputType="text"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/acetEmail"
+        android:layout_marginTop="@dimen/label_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contact_email_lable"
+        android:inputType="textEmailAddress"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/acetMessage"
+        android:gravity="top"
+        android:layout_marginTop="@dimen/label_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contact_message_label"
+        android:inputType="textMultiLine"
+        />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/acbSend"
+        android:layout_marginBottom="@dimen/bottom_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/button_label"
+        android:elevation="@dimen/button_elevation"
+        />
+
+</LinearLayout>

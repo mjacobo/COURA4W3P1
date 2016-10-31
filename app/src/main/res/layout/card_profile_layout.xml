@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvCard"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/card_height"
+    android:layout_marginBottom="@dimen/card_padding"
+    card_view:cardCornerRadius="@dimen/card_radius"
+    >
+
+    <LinearLayout
+        android:id="@+id/llProfileCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/card_profile_padding"
+        >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/acivPetProfilePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/picture_height"
+            android:src="@drawable/lamb"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/actvProfileLikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/card_demo_text"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorIconsText"
+            android:textSize="@dimen/card_text_size"
+            />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/acivYellowBone"
+            android:layout_width="@dimen/bone_size"
+            android:layout_height="@dimen/bone_size"
+            android:src="@mipmap/ic_bone_yellow"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:cropToPadding="true"
+            />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
